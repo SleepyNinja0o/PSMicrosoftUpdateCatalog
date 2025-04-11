@@ -1,8 +1,12 @@
-﻿# Microsoft Update Catalog PowerShell Module
+﻿﻿# Microsoft Update Catalog PowerShell Module
 Simple PowerShell module for querying the Microsoft Update Catalog and pulling update details + download links
 <br/>
 <br/>
 ## Examples
+### Import Module Commands
+```Import-Module "PSMicrosoftUpdateCatalog.psm1"```
+<br/>
+<br/>
 ### Retrieve First 25 Catalog Search Results
 ```Get-MicrosoftUpdates -SearchText "KB5035307"```
 <br/>
