@@ -81,7 +81,7 @@ param($SearchText,[switch]$NextPage)
     #>
 }
 
-function Get-MicrosoftUpdateDownload{
+function Get-MicrosoftUpdateFiles{
 param($UpdateID)
     $Microsoft_UpdateIDs_JSON = ConvertTo-Json -Compress -InputObject @([ordered]@{"size"=0;"languages"="";"uidInfo"=$UpdateID;"updateID"=$UpdateID})
     $Microsoft_Query = [ordered]@{"updateIDs"=$Microsoft_UpdateIDs_JSON;"updateIDsBlockedForImport"="";"wsusApiPresent"="";"contentImport"="";"sku"="";"serverName"="";"ssl"="";"portNumber"="";"version"=""}
