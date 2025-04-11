@@ -1,4 +1,4 @@
-﻿﻿# Microsoft Update Catalog PowerShell Module
+# Microsoft Update Catalog PowerShell Module
 Simple PowerShell module for querying the Microsoft Update Catalog and pulling update details + download links
 <br/>
 <br/>
